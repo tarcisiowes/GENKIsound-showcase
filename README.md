@@ -2,10 +2,8 @@
 
 A mobile music product focused on mood-based playback, safe audio modulation, streaming integrations, and music-learning interactions.
 
-> This public repository is a product showcase. The production codebase is private.
+> This public repository is a product showcase. The production codebase is private.  
 > This repo focuses on product scope, architecture, technical decisions, and delivery direction.
-
----
 
 ## Overview
 
@@ -18,15 +16,13 @@ The product began around a focused playback concept:
 - make playback controls understandable and predictable
 - support a path toward richer music-learning flows
 
-Over time, the product also expanded into:
+The product also expanded into:
 
 - streaming-provider integrations
 - lyrics-first learning surfaces
 - guest-first review and sync flows
 - feedback and account tooling
 - focus-session support
-
----
 
 ## What makes it different
 
@@ -37,9 +33,7 @@ Over time, the product also expanded into:
 - **Streaming-aware design** across Spotify and YouTube paths
 - **Native-first audio direction** for long-term DSP flexibility
 
----
-
-## Core Product Areas
+## Product Areas
 
 - Mood presets
 - Manual tempo and pitch controls
@@ -50,32 +44,26 @@ Over time, the product also expanded into:
 - Focus timer / session support
 - Feedback and error-log support
 
----
+## Demo Assets
 
-## Screenshots
+### Screenshots
+Screenshots will be added later.
 
-> Screenshots will be added later.
+Recommended file names:
 
-Suggested structure:
+- `assets/screenshots/home.png`
+- `assets/screenshots/player.png`
+- `assets/screenshots/streamings.png`
+- `assets/screenshots/music-learning.png`
+- `assets/screenshots/review-hub.png`
+- `assets/screenshots/config.png`
 
-- `docs/screenshots/home.png`
-- `docs/screenshots/player.png`
-- `docs/screenshots/streamings.png`
-- `docs/screenshots/music-learning.png`
-- `docs/screenshots/review-hub.png`
-- `docs/screenshots/config.png`
+### Navigation GIF
+A navigation GIF will be added later.
 
----
+Recommended file name:
 
-## Navigation GIF
-
-> A navigation GIF will be added later.
-
-Suggested placement:
-
-- `docs/gifs/genkisound-navigation.gif`
-
----
+- `assets/gifs/genkisound-navigation.gif`
 
 ## Simple Architecture Diagram
 
@@ -93,3 +81,27 @@ flowchart TD
     I --> K[Supabase]
     A --> L[Notifications / Focus Sessions]
     A --> M[Feedback + Error Logging]
+```
+
+## Documentation
+
+- [Architecture Summary](docs/architecture.md)
+- [Technical Decisions](docs/technical-decisions.md)
+- [Roadmap](docs/roadmap.md)
+- [Changelog](docs/changelog.md)
+
+## Why this repository is public
+
+This repository exists to present the product direction, engineering thinking, and system design behind GenkiSound without exposing the private production codebase.
+
+It is intended to show:
+
+- product exploration quality
+- architecture choices
+- native/mobile engineering depth
+- integration complexity
+- thoughtful trade-offs around audio and platform work
+
+## Contact
+
+If you are a recruiter, collaborator, or hiring manager and want to discuss the project, feel free to reach out through my GitHub or LinkedIn profile.
