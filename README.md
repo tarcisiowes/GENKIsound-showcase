@@ -1,7 +1,3 @@
-
-## README — `GenkiSound-showcase`
-
-```md
 # GenkiSound
 
 A mobile music product focused on mood-based playback, safe audio modulation, streaming integrations, and music-learning interactions.
